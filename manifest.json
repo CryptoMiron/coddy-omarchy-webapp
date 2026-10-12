@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "miron.coddy-webapp",
+  "name": "Coddy Web App",
+  "version": "1.0.0",
+  "author": "NeuralDeep",
+  "description": "Launch Coddy AI assistant as a standalone PWA-like window from the Omarchy top bar. Opens Coddy in Chrome/Chromium app mode (no address bar, no tabs) for a native desktop experience.",
+  "homepage": "https://github.com/NeuralDeep/coddy-omarchy-webapp",
+  "license": "MIT",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Coddy",
+    "category": "AI Tools",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "settings": {
+      "port": {
+        "type": "number",
+        "default": 12345,
+        "title": "Coddy Port",
+        "description": "Port where Coddy is running (default: 12345)"
+      }
+    }
+  }
+}
