@@ -1,9 +1,7 @@
 # Coddy Web App — Omarchy Shell Plugin
 
-> Launch [Coddy](https://github.com/NeuralDeep/coddy) AI assistant as a
+> Launch [Coddy](https://github.com/CryptoMiron/coddy) AI assistant as a
 > standalone desktop window from the Omarchy top bar.
-
-![Omarchy Bar](https://raw.githubusercontent.com/NeuralDeep/coddy-omarchy-webapp/main/screenshots/bar.png)
 
 ## ✨ Features
 
@@ -20,14 +18,14 @@
 
 ```bash
 # Add the plugin and enable it in one command
-omarchy plugin add https://github.com/NeuralDeep/coddy-omarchy-webapp --enable
+omarchy plugin add https://github.com/CryptoMiron/coddy-omarchy-webapp --enable
 ```
 
 ### Manual installation
 
 ```bash
 # Clone this repository
-git clone https://github.com/NeuralDeep/coddy-omarchy-webapp.git
+git clone https://github.com/CryptoMiron/coddy-omarchy-webapp.git
 mv coddy-omarchy-webapp ~/.config/omarchy/plugins/coddy-webapp
 
 # Enable and place on the bar
@@ -99,9 +97,9 @@ omarchy plugin update coddy-webapp
   "id": "coddy-webapp",             // unique plugin identifier
   "name": "Coddy Web App",          // displayed name
   "version": "1.0.0",               // SemVer
-  "author": "NeuralDeep",
+  "author": "CryptoMiron",
   "description": "Launch Coddy in a standalone browser window",
-  "homepage": "https://github.com/NeuralDeep/coddy-omarchy-webapp",
+  "homepage": "https://github.com/CryptoMiron/coddy-omarchy-webapp",
   "license": "MIT",
   "kinds": ["bar-widget"],
   "entryPoints": {
@@ -185,6 +183,6 @@ omarchy plugin clone omarchy.network --edit
 
 ## 🔗 See Also
 
-- [Coddy](https://github.com/NeuralDeep/coddy) — AI coding assistant
+- [Coddy](https://github.com/CryptoMiron/coddy) — AI coding assistant
 - [Omarchy](https://github.com/neuraldeep/omarchy) — Arch Linux desktop environment
 - [Quickshell](https://github.com/JFlaQuickshell/quickshell) — QML-based shell framework

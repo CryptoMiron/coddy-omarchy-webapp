@@ -3,9 +3,9 @@
   "id": "miron.coddy-webapp",
   "name": "Coddy Web App",
   "version": "1.0.0",
-  "author": "NeuralDeep",
+  "author": "CryptoMiron",
   "description": "Launch Coddy AI assistant as a standalone PWA-like window from the Omarchy top bar. Opens Coddy in Chrome/Chromium app mode (no address bar, no tabs) for a native desktop experience.",
-  "homepage": "https://github.com/NeuralDeep/coddy-omarchy-webapp",
+  "homepage": "https://github.com/CryptoMiron/coddy-omarchy-webapp",
   "license": "MIT",
   "kinds": ["bar-widget"],
   "entryPoints": {
